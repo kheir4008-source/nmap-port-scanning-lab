@@ -1,0 +1,18 @@
+# Nmap 7.98 scan initiated Tue Jun  9 05:09:51 2026 as: /usr/lib/nmap/nmap --privileged -sS -sV -O -sC -oA gateway_scan 192.168.64.1
+Nmap scan report for 192.168.64.1
+Host is up (0.00081s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+53/tcp open  domain  (generic dns response: NOTIMP)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-TCP:V=7.98%I=7%D=6/9%Time=6A27D86E%P=aarch64-unknown-linux-gnu%r
+SF:(DNSStatusRequestTCP,E,"\0\x0c\0\0\x90\x04\0\0\0\0\0\0\0\0");
+MAC Address: 12:BD:3A:48:50:64 (Unknown)
+Device type: general purpose
+Running: Apple macOS 11.X
+OS CPE: cpe:/o:apple:mac_os_x:11
+OS details: Apple macOS 11 (Big Sur) (Darwin 20.6.0)
+Network Distance: 1 hop
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jun  9 05:10:19 2026 -- 1 IP address (1 host up) scanned in 28.10 seconds

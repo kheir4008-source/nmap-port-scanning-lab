@@ -1,0 +1,7 @@
+# Nmap 7.98 scan initiated Tue Jun  9 05:08:55 2026 as: /usr/lib/nmap/nmap --privileged -sn -oN discovery.txt 192.168.64.0/24
+Nmap scan report for 192.168.64.1
+Host is up (0.00035s latency).
+MAC Address: 12:BD:3A:48:50:64 (Unknown)
+Nmap scan report for 192.168.64.12
+Host is up.
+# Nmap done at Tue Jun  9 05:09:05 2026 -- 256 IP addresses (2 hosts up) scanned in 9.93 seconds
